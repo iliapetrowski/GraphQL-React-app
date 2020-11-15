@@ -1,0 +1,31 @@
+{
+  "name": "graphql-pet-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iliapetrowski/GraphQL-React-app.git"
+  },
+  "keywords": [
+    "graphql",
+    "react"
+  ],
+  "author": "iliapetrowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iliapetrowski/GraphQL-React-app/issues"
+  },
+  "homepage": "https://github.com/iliapetrowski/GraphQL-React-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.10.14",
+    "nodemon": "^2.0.6"
+  }
+}
